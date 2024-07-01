@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const SubdomainScanner = () => {
-  const [domain, setDomain] = useState('rajasthan.gov.in');
+  const [domain, setDomain] = useState();
   const [subdomains, setSubdomains] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);

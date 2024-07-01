@@ -33,9 +33,9 @@ function App() {
                 <li className="nav-item">
                   <Link className="nav-link" to="/whois">Whois</Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" to="/email-checker">Email Checker</Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link className="nav-link" to="/subdomain-scanner">Subdomain Scanner</Link>
                 </li>
