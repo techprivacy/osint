@@ -1,0 +1,42 @@
+.ip-info-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ip-address {
+  font-size: 2em;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar .form-control {
+  max-width: 400px;
+}
+
+.search-bar .btn {
+  width: 100px;
+}
